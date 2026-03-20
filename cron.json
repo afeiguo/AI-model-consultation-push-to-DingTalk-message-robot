@@ -1,0 +1,15 @@
+{
+  "jobs": [
+    {
+      "name": "model-daily-digest",
+      "schedule": {
+        "kind": "cron",
+        "cron": "0 9 * * *",
+        "timezone": "Asia/Shanghai"
+      },
+      "command": "cd ~/.openclaw/workspace/skills/model-daily-digest && node scripts/fetch-models.js",
+      "description": "Daily AI model digest from Hugging Face",
+      "enabled": true
+    }
+  ]
+}

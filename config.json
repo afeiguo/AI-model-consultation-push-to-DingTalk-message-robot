@@ -1,0 +1,21 @@
+{
+  "sources": ["huggingface"],
+  "modelTypes": ["llm", "multimodal", "vision", "audio", "embedding"],
+  "minDownloads": 50,
+  "maxResults": 10,
+  "schedule": {
+    "enabled": true,
+    "cron": "0 9 * * *",
+    "timezone": "Asia/Shanghai"
+  },
+  "output": {
+    "format": "markdown",
+    "saveToFile": true,
+    "pushNotification": true
+  },
+  "filters": {
+    "includeChinese": true,
+    "includeMultilingual": true,
+    "minLikes": 10
+  }
+}

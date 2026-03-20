@@ -1,0 +1,15 @@
+{
+  "seen": [
+    "sentence-transformers/all-MiniLM-L6-v2",
+    "google-bert/bert-base-uncased",
+    "google/electra-base-discriminator",
+    "Falconsai/nsfw_image_detection",
+    "sentence-transformers/all-mpnet-base-v2",
+    "laion/clap-htsat-fused",
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "timm/mobilenetv3_small_100.lamb_in1k",
+    "Qwen/Qwen2.5-7B-Instruct",
+    "FacebookAI/roberta-large"
+  ],
+  "lastFetch": "2026-03-19T16:17:38.797Z"
+}
