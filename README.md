@@ -122,7 +122,7 @@ model-daily-digest/
 
 ## 👤 作者
 
-**郭涛** <lanttorguo@163.com>
+ <lanttorguo@163.com>
 
 ## 📄 许可证
 
